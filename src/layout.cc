@@ -61,19 +61,19 @@ int Layout::move(char c)
     switch (c)
     {
         case UP:
-            move_down();
-            return 1;
-            break;
-        case DOWN:
             move_up();
             return 1;
             break;
+        case DOWN:
+            move_down();
+            return 1;
+            break;
         case LEFT:
-            move_right();
+            move_left();
             return 1;
             break;
         case RIGHT:
-            move_left();
+            move_right();
             return 1;
             break;
         case QUIT:
