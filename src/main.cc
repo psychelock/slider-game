@@ -5,7 +5,7 @@
 int main ()
 {
     int lol = 1;
-    Layout grid(2);
+    Layout grid(3);
     while(lol)
     {
         system("clear");
